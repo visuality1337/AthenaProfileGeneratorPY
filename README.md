@@ -82,5 +82,5 @@ Use the built-in Discord bot to manage your server via Discord commands.
 > 🙌 A huge thank you to **Lawin**, who created the original JavaScript backend.
 > This Python project is entirely based on his brilliant work.
 
-- 💻 [LawinServer (Original JavaScript-Repo)](https://github.com/LawinServer](https://github.com/Lawin0129/LawinServerV2/)  
+- 💻 [LawinServer (Original JavaScript-Repo)](https://github.com/Lawin0129/LawinServerV2/)
 - 🐍 **FortnitePrivateServer-PY** – complete Python port

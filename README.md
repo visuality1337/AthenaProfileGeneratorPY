@@ -68,3 +68,19 @@ Use the built-in Discord bot to manage your server via Discord commands.
 | `/unban {targetUsername}` | Unbans the specified user. |
 | `/kick {targetUsername}` | Kicks the user from their session. |
 
+
+
+
+### 🚀 Getting Started (Coming Soon)
+
+> 🛠️ Setup instructions and dependencies will be added in a future update.
+
+---
+
+### 🙏 Credits
+
+> 🙌 A huge thank you to **Lawin**, who created the original JavaScript backend.
+> This Python project is entirely based on his brilliant work.
+
+- 💻 [LawinServer (Original JavaScript-Repo)]([https://github.com/LawinServer](https://github.com/Lawin0129/LawinServerV2/))  
+- 🐍 **FortnitePrivateServer-PY** – complete Python port

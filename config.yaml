@@ -1,0 +1,43 @@
+# API Settings
+api_url: "https://fortnite-api.com/v2/cosmetics"  # URL for fetching cosmetics data
+timeout: 30  # API request timeout in seconds
+retry_attempts: 3  # Number of retry attempts for failed API calls
+retry_delay: 2  # Delay between retries in seconds
+
+# Output Settings
+output_file: "athena.json"  # Output file name for generated profile
+template_file: "athena_template.json"  # Template file name
+output_directory: "."  # Directory for output files (relative or absolute path)
+pretty_print: true  # Format JSON output with indentation
+backup_output: true  # Create a backup of existing output file before overwriting
+backup_suffix: ".bak"  # Suffix for backup files (e.g., athena.json.bak)
+
+# Logging Settings
+log_level: "INFO"  # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+log_file: "athena_generator.log"  # Log file name
+log_to_console: true  # Enable console logging
+
+# Processing Settings
+skip_modes: ["lego", "beans"]  # Modes to skip during processing
+exclude_random_items: true  # Skip items with "random" in their ID
+max_items: 0  # Maximum number of items to process (0 for unlimited)
+batch_size: 100  # Log progress after processing this many items
+
+# Item Customization
+default_level: 1  # Default level for items
+default_xp: 0  # Default XP for items
+mark_all_favorite: false  # Set all items as favorite
+include_variants: true  # Include item variants in the profile
+variant_default_active: true  # Set first variant option as active by default
+
+# Filtering Options
+include_types: []  # List of backendValue types to include (empty for all)
+exclude_types: []  # List of backendValue types to exclude
+min_rarity: ""  # Minimum rarity to include (e.g., "common", "rare", empty for all)
+
+# Advanced Settings
+overwrite_template: false  # Overwrite template if it exists
+validate_json: true  # Validate JSON before saving
+cache_api_response: false  # Cache API response to disk
+cache_file: "cosmetics_cache.json"  # Cache file name for API response
+cache_expiry_hours: 24  # Cache expiration time in hours

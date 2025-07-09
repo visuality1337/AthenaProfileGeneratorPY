@@ -16,7 +16,7 @@ Generate a comprehensive Athena profile with the latest Fortnite cosmetics and v
 
 ## Prerequisites
 - **Python 3.6+**: Ensure Python is installed on your system.
-- A compatible Fortnite private server backend (e.g., [LawinServer](https://github.com/Lawin012/LawinServer) or [Neonite](https://github.com/NeoniteDev/NeonitePP)).
+- A compatible Fortnite private server backend (e.g., [LawinServer](https://github.com/Lawin012/LawinServer) or [Neonite](https://github.com/NeoniteDev/NeoniteV2).
 - Internet connection to fetch data from the Fortnite API.
 
 ### Made for [FortnitePrivateServer-PY](https://github.com/visuality1337/FortnitePrivateServer-PY)
